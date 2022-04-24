@@ -1,0 +1,19 @@
+{
+  "name": "rzhukovskiy/recipe-test",
+  "autoload": {
+    "psr-4": {
+      "Rzhukovskiy\\RecipeTest\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/rzhukovskiy/recipe"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "rzhukovskiy/recipe": "dev-master",
+    "ext-json": "*"
+  }
+}

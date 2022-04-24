@@ -1,0 +1,46 @@
+{
+  "inputs": {
+    "a": 2,
+    "b": 5,
+    "x": 4
+  },
+  "steps": [
+    [
+      "Rzhukovskiy\\Recipe\\Steps\\Multiply",
+      [
+        "input",
+        "a"
+      ],
+      [
+        "input",
+        "x"
+      ],
+      [
+        "input",
+        "x"
+      ]
+    ],
+    [
+      "Rzhukovskiy\\Recipe\\Steps\\Multiply",
+      [
+        "input",
+        "x"
+      ],
+      [
+        "input",
+        "b"
+      ]
+    ],
+    [
+      "Rzhukovskiy\\Recipe\\Steps\\Sum",
+      [
+        "result",
+        0
+      ],
+      [
+        "result",
+        1
+      ]
+    ]
+  ]
+}

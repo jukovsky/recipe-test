@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "aa6d7e934b5edd8358f43d14c34513c7",
+    "packages": [
+        {
+            "name": "rzhukovskiy/recipe",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rzhukovskiy/recipe.git",
+                "reference": "40e355b25a86518ccb761e0c76016eb311609218"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rzhukovskiy/recipe/zipball/40e355b25a86518ccb761e0c76016eb311609218",
+                "reference": "40e355b25a86518ccb761e0c76016eb311609218",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rzhukovskiy\\Recipe\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "rzhukovskiy",
+                    "email": "zhukovskey@gmail.com"
+                }
+            ],
+            "description": "Tiny lirary implementing middleware concept",
+            "support": {
+                "source": "https://github.com/rzhukovskiy/recipe/tree/master",
+                "issues": "https://github.com/rzhukovskiy/recipe/issues"
+            },
+            "time": "2022-04-24T15:04:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "rzhukovskiy/recipe": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
